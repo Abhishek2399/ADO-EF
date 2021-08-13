@@ -1,0 +1,7 @@
+D:\Capgemini_codes\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.exe.config
+D:\Capgemini_codes\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.exe
+D:\Capgemini_codes\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.pdb
+D:\Capgemini_codes\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.csproj.AssemblyReference.cache
+D:\Capgemini_codes\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.csproj.CoreCompileInputs.cache
+D:\Capgemini_codes\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.exe
+D:\Capgemini_codes\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.pdb

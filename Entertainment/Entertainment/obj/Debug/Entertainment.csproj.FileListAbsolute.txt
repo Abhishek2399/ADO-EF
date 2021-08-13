@@ -1,0 +1,6 @@
+D:\Capgemini_codes\Entertainment\Entertainment\bin\Debug\Entertainment.dll
+D:\Capgemini_codes\Entertainment\Entertainment\bin\Debug\Entertainment.pdb
+D:\Capgemini_codes\Entertainment\Entertainment\obj\Debug\Entertainment.csproj.AssemblyReference.cache
+D:\Capgemini_codes\Entertainment\Entertainment\obj\Debug\Entertainment.csproj.CoreCompileInputs.cache
+D:\Capgemini_codes\Entertainment\Entertainment\obj\Debug\Entertainment.dll
+D:\Capgemini_codes\Entertainment\Entertainment\obj\Debug\Entertainment.pdb

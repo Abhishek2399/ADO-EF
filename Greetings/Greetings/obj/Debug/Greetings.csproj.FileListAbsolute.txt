@@ -1,0 +1,6 @@
+D:\Capgemini_codes\Greetings\Greetings\bin\Debug\Greetings.dll
+D:\Capgemini_codes\Greetings\Greetings\bin\Debug\Greetings.pdb
+D:\Capgemini_codes\Greetings\Greetings\obj\Debug\Greetings.csproj.AssemblyReference.cache
+D:\Capgemini_codes\Greetings\Greetings\obj\Debug\Greetings.csproj.CoreCompileInputs.cache
+D:\Capgemini_codes\Greetings\Greetings\obj\Debug\Greetings.dll
+D:\Capgemini_codes\Greetings\Greetings\obj\Debug\Greetings.pdb

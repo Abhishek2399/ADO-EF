@@ -1,0 +1,10 @@
+D:\Capgemini_codes\FileDemo\FileDemo\bin\Debug\FileDemo.exe.config
+D:\Capgemini_codes\FileDemo\FileDemo\bin\Debug\FileDemo.exe
+D:\Capgemini_codes\FileDemo\FileDemo\bin\Debug\FileDemo.pdb
+D:\Capgemini_codes\FileDemo\FileDemo\obj\Debug\FileDemo.csproj.AssemblyReference.cache
+D:\Capgemini_codes\FileDemo\FileDemo\obj\Debug\FileDemo.csproj.CoreCompileInputs.cache
+D:\Capgemini_codes\FileDemo\FileDemo\obj\Debug\FileDemo.exe
+D:\Capgemini_codes\FileDemo\FileDemo\obj\Debug\FileDemo.pdb
+D:\Capgemini_codes\FileDemo\FileDemo\bin\Debug\Newtonsoft.Json.dll
+D:\Capgemini_codes\FileDemo\FileDemo\bin\Debug\Newtonsoft.Json.xml
+D:\Capgemini_codes\FileDemo\FileDemo\obj\Debug\FileDemo.csproj.CopyComplete

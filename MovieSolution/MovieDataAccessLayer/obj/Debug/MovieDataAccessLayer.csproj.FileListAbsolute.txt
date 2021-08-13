@@ -1,0 +1,9 @@
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\bin\Debug\MovieDataAccessLayer.dll
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\bin\Debug\MovieDataAccessLayer.pdb
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\obj\Debug\MovieDataAccessLayer.csproj.AssemblyReference.cache
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\obj\Debug\MovieDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\obj\Debug\MovieDataAccessLayer.dll
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\obj\Debug\MovieDataAccessLayer.pdb
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\bin\Debug\MovieEntityLayer.dll
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\bin\Debug\MovieEntityLayer.pdb
+D:\Capgemini_codes\MovieSolution\MovieDataAccessLayer\obj\Debug\MovieDataAccessLayer.csproj.CopyComplete

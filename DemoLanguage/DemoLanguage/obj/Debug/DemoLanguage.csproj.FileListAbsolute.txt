@@ -1,0 +1,10 @@
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\bin\Debug\DemoLanguage.exe.config
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\bin\Debug\DemoLanguage.exe
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\bin\Debug\DemoLanguage.pdb
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\obj\Debug\DemoLanguage.csproj.AssemblyReference.cache
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\obj\Debug\DemoLanguage.csproj.CoreCompileInputs.cache
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\obj\Debug\DemoLanguage.exe
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\obj\Debug\DemoLanguage.pdb
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\bin\Debug\Greetings.dll
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\bin\Debug\Greetings.pdb
+D:\Capgemini_codes\DemoLanguage\DemoLanguage\obj\Debug\DemoLanguage.csproj.CopyComplete

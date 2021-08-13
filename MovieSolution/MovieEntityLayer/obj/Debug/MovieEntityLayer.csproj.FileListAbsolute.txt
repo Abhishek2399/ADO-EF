@@ -1,0 +1,6 @@
+D:\Capgemini_codes\MovieSolution\MovieEntityLayer\bin\Debug\MovieEntityLayer.dll
+D:\Capgemini_codes\MovieSolution\MovieEntityLayer\bin\Debug\MovieEntityLayer.pdb
+D:\Capgemini_codes\MovieSolution\MovieEntityLayer\obj\Debug\MovieEntityLayer.csproj.AssemblyReference.cache
+D:\Capgemini_codes\MovieSolution\MovieEntityLayer\obj\Debug\MovieEntityLayer.csproj.CoreCompileInputs.cache
+D:\Capgemini_codes\MovieSolution\MovieEntityLayer\obj\Debug\MovieEntityLayer.dll
+D:\Capgemini_codes\MovieSolution\MovieEntityLayer\obj\Debug\MovieEntityLayer.pdb

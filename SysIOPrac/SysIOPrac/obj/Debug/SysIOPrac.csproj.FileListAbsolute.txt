@@ -1,0 +1,10 @@
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\bin\Debug\SysIOPrac.exe.config
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\bin\Debug\SysIOPrac.exe
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\bin\Debug\SysIOPrac.pdb
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\bin\Debug\Newtonsoft.Json.dll
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\bin\Debug\Newtonsoft.Json.xml
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\obj\Debug\SysIOPrac.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\obj\Debug\SysIOPrac.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\obj\Debug\SysIOPrac.csproj.CopyComplete
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\obj\Debug\SysIOPrac.exe
+D:\capgemini\training\technical\SysIOPrac\SysIOPrac\obj\Debug\SysIOPrac.pdb

@@ -19,7 +19,23 @@ namespace EntityFrame
         static void Main(string[] args)
         {
             DemoProjEntities2 DB = new DemoProjEntities2();
+
+            var empData = from data in DB.emps
+                          select data; // get all the data 
+
+            var emp1 = from data in DB.emps
+                       where data.eid == 1
+                       select data;
             
+
+            foreach( var data in emp1)
+            {
+                Console.WriteLine(data.eid + " " + data.ename);
+            }
+
+
+
+
         }
     }
 }

@@ -31,7 +31,7 @@
           <Property Name="d_id" Type="Int32" />
           <Property Name="sal" Type="Int32" />
         </EntityType>
-        <EntityContainer Name="DemoProjEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="DemoProjEntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="emps" EntityType="Self.emp" />
         </EntityContainer>
       </Schema>
@@ -39,7 +39,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="DemoProjModelStoreContainer" CdmEntityContainer="DemoProjEntities">
+        <EntityContainerMapping StorageEntityContainer="DemoProjModelStoreContainer" CdmEntityContainer="DemoProjEntities2">
           <EntitySetMapping Name="emps">
             <EntityTypeMapping TypeName="DemoProjModel.emp">
               <MappingFragment StoreEntitySet="emps">

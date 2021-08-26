@@ -18,6 +18,8 @@ namespace EntityFrame
     {
         static void Main(string[] args)
         {
+            DemoProjEntities2 DB = new DemoProjEntities2();
+            
         }
     }
 }

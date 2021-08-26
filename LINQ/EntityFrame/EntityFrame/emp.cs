@@ -18,5 +18,12 @@ namespace EntityFrame
         public string ename { get; set; }
         public Nullable<int> d_id { get; set; }
         public Nullable<int> sal { get; set; }
+
+        public override string ToString()
+        {
+            string info = $"-----------------------------\nID : {eid}\nName : {ename}\nDept ID : {d_id}\nSalary : {sal}\n-----------------------------";
+            return info;
+        }
+
     }
 }

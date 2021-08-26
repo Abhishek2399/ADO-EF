@@ -20,19 +20,33 @@ namespace EntityFrame
         {
             DemoProjEntities2 DB = new DemoProjEntities2();
 
-            var empData = from data in DB.emps
+            var empData = from data in DB.emps // src of data 
                           select data; // get all the data 
 
-            var emp1 = from data in DB.emps
-                       where data.eid == 1
-                       select data;
-            
+            var emp1 = from data in DB.emps // src of the data 
+                       where data.eid == 1 // condn to get the data 
+                       select data; // select data 
 
-            foreach( var data in emp1)
+            // Specific cols
+
+            var empSpecData = from data in DB.emps // src of data 
+                      where data.d_id == 100 // condn for data
+                      select new { data.eid, data.ename }; // specific cols 
+
+            foreach( var data in empSpecData) // printing out the values 
             {
-                Console.WriteLine(data.eid + " " + data.ename);
+             //   Console.WriteLine(data.eid + " " + data.ename);
             }
 
+
+            // Method Syntax 
+            // to get all the cols
+
+            var allData = DB.emps.ToList();// get all the recs from emps 
+
+            var whereData = DB.emps.Where(x => x.d_id == 100); // where dept id == 100, we have to use lambda expression in method parameter => expression
+            foreach( var data in allData)
+                Console.WriteLine(data.eid + " " + data.ename);
 
 
 

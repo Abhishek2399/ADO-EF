@@ -1,7 +1,0 @@
-D:\Capgemini_codes\DemoReflection\DemoReflection\bin\Debug\DemoReflection.exe.config
-D:\Capgemini_codes\DemoReflection\DemoReflection\bin\Debug\DemoReflection.exe
-D:\Capgemini_codes\DemoReflection\DemoReflection\bin\Debug\DemoReflection.pdb
-D:\Capgemini_codes\DemoReflection\DemoReflection\obj\Debug\DemoReflection.csproj.AssemblyReference.cache
-D:\Capgemini_codes\DemoReflection\DemoReflection\obj\Debug\DemoReflection.csproj.CoreCompileInputs.cache
-D:\Capgemini_codes\DemoReflection\DemoReflection\obj\Debug\DemoReflection.exe
-D:\Capgemini_codes\DemoReflection\DemoReflection\obj\Debug\DemoReflection.pdb

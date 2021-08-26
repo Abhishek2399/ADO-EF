@@ -1,8 +1,0 @@
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\bin\Debug\DemoRegExp.exe.config
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\bin\Debug\DemoRegExp.exe
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\bin\Debug\DemoRegExp.pdb
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\obj\Debug\DemoRegExp.csproj.AssemblyReference.cache
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\obj\Debug\DemoRegExp.csproj.CoreCompileInputs.cache
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\obj\Debug\DemoRegExp.exe
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\obj\Debug\DemoRegExp.pdb
-D:\Capgemini_codes\DemoRegExp\DemoRegExp\bin\Debug\news.txt

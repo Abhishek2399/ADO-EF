@@ -14,6 +14,8 @@ namespace EntityFrame
     // Connect -> EF Ver -> Check Tables we want
     // EDM(Entity Data Model) .edmx will be Constructed by the EFW 
 
+    // System Warning -> Run VS as admin -> ok
+
     class Program
     {
         public static DemoProjEntities2 DB = new DemoProjEntities2(); // creating object to access data base 

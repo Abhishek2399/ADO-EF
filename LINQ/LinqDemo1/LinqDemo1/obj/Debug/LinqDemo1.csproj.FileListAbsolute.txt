@@ -1,0 +1,7 @@
+D:\capgemini\training\technical\LINQ\LinqDemo1\LinqDemo1\bin\Debug\LinqDemo1.exe.config
+D:\capgemini\training\technical\LINQ\LinqDemo1\LinqDemo1\bin\Debug\LinqDemo1.exe
+D:\capgemini\training\technical\LINQ\LinqDemo1\LinqDemo1\bin\Debug\LinqDemo1.pdb
+D:\capgemini\training\technical\LINQ\LinqDemo1\LinqDemo1\obj\Debug\LinqDemo1.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\LINQ\LinqDemo1\LinqDemo1\obj\Debug\LinqDemo1.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\LINQ\LinqDemo1\LinqDemo1\obj\Debug\LinqDemo1.exe
+D:\capgemini\training\technical\LINQ\LinqDemo1\LinqDemo1\obj\Debug\LinqDemo1.pdb

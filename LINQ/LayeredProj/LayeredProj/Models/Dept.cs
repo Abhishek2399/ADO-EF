@@ -9,5 +9,11 @@ namespace DAL.Models
     {
         public int Did { get; set; }
         public string Name { get; set; }
+
+        public override string ToString()
+        {
+            string info = $"--------------------\nDept ID : {Did}\nName : {Name}\n--------------------";
+            return info;
+        }
     }
 }

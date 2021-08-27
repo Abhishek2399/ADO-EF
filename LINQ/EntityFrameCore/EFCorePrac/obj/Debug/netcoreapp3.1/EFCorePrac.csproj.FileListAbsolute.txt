@@ -1,0 +1,13 @@
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\bin\Debug\netcoreapp3.1\EFCorePrac.exe
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\bin\Debug\netcoreapp3.1\EFCorePrac.deps.json
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\bin\Debug\netcoreapp3.1\EFCorePrac.runtimeconfig.json
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\bin\Debug\netcoreapp3.1\EFCorePrac.runtimeconfig.dev.json
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\bin\Debug\netcoreapp3.1\EFCorePrac.dll
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\bin\Debug\netcoreapp3.1\EFCorePrac.pdb
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\obj\Debug\netcoreapp3.1\EFCorePrac.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\obj\Debug\netcoreapp3.1\EFCorePrac.AssemblyInfoInputs.cache
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\obj\Debug\netcoreapp3.1\EFCorePrac.AssemblyInfo.cs
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\obj\Debug\netcoreapp3.1\EFCorePrac.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\obj\Debug\netcoreapp3.1\EFCorePrac.dll
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\obj\Debug\netcoreapp3.1\EFCorePrac.pdb
+D:\capgemini\training\technical\LINQ\EntityFrameCore\EFCorePrac\obj\Debug\netcoreapp3.1\EFCorePrac.genruntimeconfig.cache

@@ -6,7 +6,7 @@ namespace DAL
 {
     public class DBConnect
     {
-        private static EFCoreDemoContext Db;
+        private static EFCoreContext Db;
         
         public DBConnect () // Intialising DB Connection 
         {

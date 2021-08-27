@@ -1,5 +1,7 @@
 ﻿using System;
 using DAL;
+using DAL.Models;
+
 
 namespace UI
 {
@@ -13,6 +15,8 @@ namespace UI
             {
                 //Connection to the Databse
                 //db.ShowAllDept();
+
+
 
             }
             catch (Exception ex) { Console.WriteLine(ex.Message); }       

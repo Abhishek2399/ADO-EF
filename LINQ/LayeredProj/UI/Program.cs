@@ -16,7 +16,10 @@ namespace UI
                 //Connection to the Databse
                 //db.ShowAllDept();
 
-
+                EFCoreContext DB = new EFCoreContext();
+                Emp e = DB.Emps.Find(1);
+                Console.WriteLine($"{e.Eid} : {e.Ename}");
+                db.ShowMixData();
 
             }
             catch (Exception ex) { Console.WriteLine(ex.Message); }       

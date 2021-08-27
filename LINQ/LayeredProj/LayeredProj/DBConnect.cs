@@ -12,7 +12,7 @@ namespace DAL
         {
             try
             {
-                Db = new EFCoreDemoContext();
+                Db = new EFCoreContext();
             }
             catch(Exception ex)
             {
@@ -137,6 +137,28 @@ namespace DAL
                 throw ex;
             }
         }
+
+        public void ShowMixData()
+        {
+
+            var empsLinq = from e in Db.Emps join d in Db.Depts on e.Did equals d.Did select new { Ename = e.Ename, Dname = d.Name };
+            // from <alias> in DB.<TableName> join <alias2> in DB.<Table2Name> on <alias.<RowName>> equals <alias2.RowName> select {Rows we want}
+
+            var empsMethod = Db.Emps.Join(Db.Depts, e => e.Did, d => d.Did, (e, d) => new {Ename = e.Ename, Dname = d.Name });
+            // DB.<Table to join>.Join(DB.<Table to join with>, <Joining Condition>, <Rows We want to Access>)
+
+            foreach (var emp in empsLinq)
+            {
+                Console.WriteLine($"{emp.Ename} -> {emp.Dname}");
+
+            }
+            Console.WriteLine("====================================");
+            foreach (var emp in empsMethod)
+            {
+                Console.WriteLine($"{emp.Ename} -> {emp.Dname}");
+            }
+        }
+
 
     }
 }

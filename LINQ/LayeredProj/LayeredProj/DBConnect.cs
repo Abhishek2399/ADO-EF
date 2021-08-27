@@ -67,7 +67,7 @@ namespace DAL
             }
         }
 
-        public void AddDept(Dept obj)
+        public void AddDept() // Adding a new Department 
         {
             try
             {
@@ -92,7 +92,7 @@ namespace DAL
             }
         }
 
-        public void UpdateRec() // 
+        public void UpdateDept() // Updating Department Data 
         {
             try
             {
@@ -126,11 +126,24 @@ namespace DAL
             }
         }
 
-        public static void DelByID()
+        public void DelDeptByID() // Delete Dept By id 
         {
             try
             {
-
+                Console.WriteLine("========================== <Delete By ID> ==========================");
+                Console.WriteLine("Enter the ID to Delete : ");
+                int toSearch = Convert.ToInt32(Console.ReadLine());
+                Dept dep = Db.Depts.Find(toSearch);
+                if (dep != null)
+                {
+                    Db.Depts.Remove(dep);
+                    Db.SaveChanges();
+                    this.ShowAllDept();      
+                }
+                else
+                {
+                    Console.WriteLine("Record Not Found");
+                }
             }
             catch (Exception ex)
             {
@@ -138,7 +151,7 @@ namespace DAL
             }
         }
 
-        public void ShowMixData()
+        public void ShowMixData() // Show data from Department and Employee using join 
         {
 
             var empsLinq = from e in Db.Emps join d in Db.Depts on e.Did equals d.Did select new { Ename = e.Ename, Dname = d.Name };

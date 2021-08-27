@@ -44,8 +44,15 @@ namespace EFCorePrac
                 Console.WriteLine("Enter the ID to Search : ");
                 int toSearch = Convert.ToInt32(Console.ReadLine());
                 Employee1 emp = DB.Employees1.Find(toSearch);
-                Console.WriteLine("Search Result : ");
-                Console.WriteLine(emp);
+                if (emp != null)
+                {
+                    Console.WriteLine("Search Result : ");
+                    Console.WriteLine(emp);
+                }
+                else
+                {
+                    Console.WriteLine("Record Not Found");
+                }
             }
             catch(Exception ex)
             {
@@ -58,8 +65,15 @@ namespace EFCorePrac
             try
             {
                 Console.WriteLine("========================== <Add Record> ==========================");
+                Console.Write("Department Available : ");
+                var deps = DB.Departs.ToList();
+                foreach(var dep in deps)
+                {
+                    Console.Write($"{dep.DId} ");
+                }
+
                 Employee1 newEmp = new Employee1();
-                Console.WriteLine("Enter ID : ");
+                Console.WriteLine("\nEnter ID : ");
                 newEmp.EId = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("Enter Name : ");
@@ -87,22 +101,30 @@ namespace EFCorePrac
                 Console.WriteLine("Enter the ID to Update : ");
                 int toSearch = Convert.ToInt32(Console.ReadLine());
                 Employee1 emp = DB.Employees1.Find(toSearch);
-                
-                Console.WriteLine("Enter New Name : ");
-                string newName = Console.ReadLine();
+                Employee1 tempEmp = DB.Employees1.Find(toSearch);
 
-                Console.WriteLine("Enter New Dept ID : ");
-                string newDepId = Console.ReadLine();
+                if (emp != null)
+                {
+                    Console.WriteLine("Enter New Name : ");
+                    string newName = Console.ReadLine();
 
-                emp.DId = newDepId == "" | newDepId == " " ? emp.DId : Convert.ToInt32(newDepId);
-                emp.EName = newName == "" | newName == " " ? emp.EName : newName;
-
-                DB.Employees1.Add(emp);
-                DB.SaveChanges();
-
+                    Console.WriteLine("Enter New Dept ID : ");
+                    string newDepId = Console.ReadLine();
+                    
+                    emp.DId = newDepId == "" | newDepId == " " ? tempEmp.DId : Convert.ToInt32(newDepId);
+                    emp.EName = newName == "" | newName == " " ? tempEmp.EName : newName;
+                    DB.SaveChanges();
+                    DispAllRecs();
+                    
+                }
+                else
+                {
+                    Console.WriteLine("Record Not Found");
+                }
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 throw ex;
             }
         }
@@ -124,8 +146,8 @@ namespace EFCorePrac
         {
             try
             {
-                DispAllRecs();
-                AddRec();
+                DispByID();
+                UpdateRec();
             }
             catch(Exception ex)
             {

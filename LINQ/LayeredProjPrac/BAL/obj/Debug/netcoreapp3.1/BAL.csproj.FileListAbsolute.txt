@@ -1,0 +1,12 @@
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\bin\Debug\netcoreapp3.1\BAL.deps.json
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\bin\Debug\netcoreapp3.1\BAL.dll
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\bin\Debug\netcoreapp3.1\BAL.pdb
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\obj\Debug\netcoreapp3.1\BAL.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\obj\Debug\netcoreapp3.1\BAL.AssemblyInfoInputs.cache
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\obj\Debug\netcoreapp3.1\BAL.AssemblyInfo.cs
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\obj\Debug\netcoreapp3.1\BAL.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\obj\Debug\netcoreapp3.1\BAL.dll
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\obj\Debug\netcoreapp3.1\BAL.pdb
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\capgemini\training\technical\LINQ\LayeredProjPrac\BAL\obj\Debug\netcoreapp3.1\BAL.csproj.CopyComplete

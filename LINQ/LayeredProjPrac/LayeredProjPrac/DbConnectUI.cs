@@ -15,13 +15,12 @@ namespace LayeredProjPrac
                 //dBbal.ShowEmployeeById(4);
                 
                 Emp update = new Emp();
-                update.Eid = 4;
+                update.Eid = 11;
                 update.Did = 200;
                 update.Ename = "Owen Wilson";
-                
-                dBbal.UpdateEmployeeByID(update);
 
-
+                //dBbal.UpdateEmployeeByID(update);
+                dBbal.ShowEmployeeByName("Abhi");
             }
             catch (Exception ex)
             {

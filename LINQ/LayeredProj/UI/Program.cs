@@ -17,9 +17,24 @@ namespace UI
                 //db.ShowAllDept();
 
                 EFCoreContext DB = new EFCoreContext();
-                Emp e = DB.Emps.Find(1);
-                Console.WriteLine($"{e.Eid} : {e.Ename}");
-                db.ShowMixData();
+
+                //db.ShowMixData();
+                //db.DispAllEmps();
+                //db.DispEmpById(2, "Abhishek");
+
+                Emp newEmp = new Emp();
+                newEmp.Eid = 19;
+                newEmp.Ename = "Owen";
+                newEmp.Did = 400;
+                newEmp.Sal = 4000000;
+
+                //db.AddEmp(newEmp);
+                //db.DispAllEmps();
+                //db.DelEmpProc(newEmp.Eid);
+                Emp toUp = new Emp();
+                toUp.Eid = 2;
+                toUp.Ename = "Abhishek";
+                db.UpdateEmp(toUp); // needs some updation 
 
             }
             catch (Exception ex) { Console.WriteLine(ex.Message); }       

@@ -19,23 +19,25 @@ namespace DAL
 
         static void EmpDispFormat(List<Emp> emps = null, Emp empSingle = null) // Displaying content of Employee table in specific format 
         {
-            Console.WriteLine("----------------------------------------");
-            Console.WriteLine("Emp ID   | Emp Name   | Dept ID | Salary");
-            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine("Emp ID   | Emp Name             | Dept ID | Salary");
+            Console.WriteLine("**************************************************");
             if (emps != null) {
                 foreach (var emp in emps)
                 {
-                    Console.WriteLine(String.Format($"{emp.Eid,-8} | {emp.Ename,-10} | {emp.Did,-7} | {emp.Sal,-10}"));
+                    Console.WriteLine(String.Format($"{emp.Eid,-8} | {emp.Ename,-20} | {emp.Did,-7} | {emp.Sal,-10}"));
                 }
             }
             else if(empSingle != null)
             {
-                Console.WriteLine(String.Format($"{empSingle.Eid,-8} | {empSingle.Ename,-10} | {empSingle.Did,-7} | {empSingle.Sal,-10}"));
+                Console.WriteLine(String.Format($"{empSingle.Eid,-8} | {empSingle.Ename,-20} | {empSingle.Did,-7} | {empSingle.Sal,-10}"));
             }
             else
             {
                 Console.WriteLine("No Object Passed");
             }
+            Console.WriteLine("--------------------------------------------------");
+
         }
 
         public void ShowAllEmployees() // Get and Display All the data from Emp Table 
@@ -98,6 +100,8 @@ namespace DAL
                     emp.Did = empUpdates.Did == 0 ? emp.Did : empUpdates.Did ;
                     emp.Sal = empUpdates.Sal == -1 ? emp.Sal : empUpdates.Sal ;
                     dB.SaveChanges();
+                    Console.WriteLine("Record Successfully Updated");
+                    this.ShowEmployeeByID(empUpdates.Eid);
                 }
                 else
                 {

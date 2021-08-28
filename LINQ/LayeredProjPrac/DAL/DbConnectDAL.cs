@@ -129,7 +129,6 @@ namespace DAL
             }
         }
 
-
         public void UpdateEmployeeByID(Emp empUpdates) // Get Employee By ID and Update Details
         {
             try

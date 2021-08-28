@@ -14,6 +14,7 @@ namespace BAL
             dBdal = new DbConnectDAL();
         }
 
+        // ---------- <Employee Related Methods> -----------
 
         public void ShowAllEmployees()
         {

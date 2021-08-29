@@ -13,14 +13,16 @@ namespace LayeredProjPrac
                 DbConnectBAL dBbal = new DbConnectBAL();
                 dBbal.ShowAllEmployees();
                 //dBbal.ShowEmployeeById(4);
-                
-                Emp update = new Emp();
-                update.Eid = 11;
-                update.Did = 200;
-                update.Ename = "Owen Wilson";
 
-                //dBbal.UpdateEmployeeByID(update);
-                dBbal.ShowEmployeeByName("Abhi");
+                Emp toAdd = new Emp() { Eid = 17, Did = 0, Ename = "Abhi", Sal = 9000 };
+                Emp toUp = new Emp() { Eid = 2, Ename = "Abhi"};
+
+                //dBbal.UpdateEmployeeByID(toUp);
+                //dBbal.ShowEmployeeByName("Abhi");
+                //dBbal.InsertEmployee(toAdd);
+
+                dBbal.DeleteEmployeeByName("Abhi");
+                dBbal.ShowAllEmployees();
             }
             catch (Exception ex)
             {

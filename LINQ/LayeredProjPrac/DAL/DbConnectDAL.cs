@@ -157,8 +157,48 @@ namespace DAL
                 throw ex;
             }
         }
+        
+        public void DeleteEmployeeByName(string nameToDelete) // Delete Employees By Name
+        {
+            try
+            {
+                var toDelete = dB.Emps.Where(e => e.Ename == nameToDelete);
+                foreach(var emp in toDelete)
+                {
+                    dB.Emps.Remove(emp);
+                }
+                dB.SaveChanges();
+            }
+            catch(SqlException ex)
+            {
+                throw ex;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
 
-
+        public void InsertEmployee(Emp empToAdd = null) // Adding a new Employee
+        {
+            try
+            {
+                if(empToAdd != null)
+                {
+                    dB.Emps.Add(empToAdd);
+                    dB.SaveChanges();
+                    this.ShowAllEmployees();
+                }
+            }
+            catch(SqlException ex)
+            {
+                throw ex;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
 
         // ---------- <Department Related Queries> -----------
 

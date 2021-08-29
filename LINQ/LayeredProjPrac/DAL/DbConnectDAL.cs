@@ -22,14 +22,15 @@ namespace DAL
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("Emp ID   | Emp Name             | Dept ID | Salary");
             Console.WriteLine("**************************************************");
-            if (data is List<Emp>) {
+            if (data is List<Emp>) // Tolist
+            { 
                 var emps = data as List<Emp>;
                 foreach (var emp in emps)
                 {
                     Console.WriteLine(String.Format($"{emp.Eid,-8} | {emp.Ename,-20} | {emp.Did,-7} | {emp.Sal,-10}"));
                 }
             }
-            else if(data is IQueryable<Emp>)
+            else if(data is IQueryable<Emp>) // Where
             {
                 var emps = data as IQueryable<Emp>;
                 foreach (var emp in emps)

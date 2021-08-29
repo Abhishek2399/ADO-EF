@@ -16,12 +16,12 @@ namespace BAL
 
         // ---------- <Employee Related Methods> -----------
 
-        public void ShowAllEmployees()
+        public void ShowAllEmployees() // Show employees
         {
             dBdal.ShowAllEmployees();
         }
 
-        public void ShowEmployeeById(int toSearch)
+        public void ShowEmployeeById(int toSearch) // Display by id 
         {
             if (toSearch > 0)
             {

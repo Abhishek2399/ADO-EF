@@ -94,8 +94,8 @@ namespace BAL
             {
                 if (toAdd.Eid > 0)
                 {
-                    string alphaNumPattern = @"[0-9]";
-                    string specialChars = @"[!@#$%^&*]";
+                    string alphaNumPattern = @"[0-9]"; // Alpha num check
+                    string specialChars = @"[!@#$%^&*]"; // Special char check
                     bool notAlpaNum = !Regex.IsMatch(toAdd.Ename, alphaNumPattern);
                     bool noSpecialChar = !Regex.IsMatch(toAdd.Ename, specialChars);
                     bool isValidName = noSpecialChar & notAlpaNum & toAdd.Ename != "" & toAdd.Ename != null & toAdd.Ename != " ";
@@ -110,7 +110,6 @@ namespace BAL
                     else Console.WriteLine("Name not Valid, shouldn't be alpha numeric or should not have special char");
                 }
                 else Console.WriteLine("ID should be greater than 0");
-
             }
             catch(Exception ex)
             {

@@ -1,0 +1,12 @@
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\bin\Debug\netcoreapp3.1\CodeFirstBAL.deps.json
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\bin\Debug\netcoreapp3.1\CodeFirstBAL.dll
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\bin\Debug\netcoreapp3.1\CodeFirstBAL.pdb
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\bin\Debug\netcoreapp3.1\CodeFirstDAL.dll
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\bin\Debug\netcoreapp3.1\CodeFirstDAL.pdb
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\obj\Debug\netcoreapp3.1\CodeFirstBAL.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\obj\Debug\netcoreapp3.1\CodeFirstBAL.AssemblyInfoInputs.cache
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\obj\Debug\netcoreapp3.1\CodeFirstBAL.AssemblyInfo.cs
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\obj\Debug\netcoreapp3.1\CodeFirstBAL.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\obj\Debug\netcoreapp3.1\CodeFirstBAL.csproj.CopyComplete
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\obj\Debug\netcoreapp3.1\CodeFirstBAL.dll
+D:\capgemini\training\technical\LINQ\CodeFirstDAL\CodeFirstBAL\obj\Debug\netcoreapp3.1\CodeFirstBAL.pdb
